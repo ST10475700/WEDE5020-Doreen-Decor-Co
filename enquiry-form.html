@@ -1,0 +1,110 @@
+
+<section class="section reveal" id="enquiry">
+  <div class="container">
+    <div class="eyebrow">Plan your day</div>
+    <h2>Send us an enquiry</h2>
+    <p>Tell us about your celebration and we will prepare a personalised quote.</p>
+
+    <form id="enquiryForm" novalidate>
+      <div class="enquiry-grid">
+
+        <div class="form-group">
+          <label for="enq-name">Full name *</label>
+          <input type="text" id="enq-name" name="fullName" placeholder="Your full name" autocomplete="name">
+          <span class="error-msg"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="enq-email">Email address *</label>
+          <input type="email" id="enq-email" name="email" placeholder="you@example.com" autocomplete="email">
+          <span class="error-msg"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="enq-phone">Phone number *</label>
+          <input type="tel" id="enq-phone" name="phone" placeholder="078 880 4597" autocomplete="tel">
+          <span class="error-msg"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="enq-service">Service you are interested in *</label>
+          <select id="enq-service" name="service">
+            <option value="">-- Select a service --</option>
+            <option>Wedding Styling</option>
+            <option>Floral Design</option>
+            <option>Reception Tablescapes</option>
+            <option>Backdrop Styling</option>
+            <option>Day-Of Styling</option>
+            <option>Bridal Details</option>
+          </select>
+          <span class="error-msg"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="enq-date">Event date *</label>
+          <input type="date" id="enq-date" name="eventDate">
+          <span class="error-msg"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="enq-guests">Number of guests *</label>
+          <input type="number" id="enq-guests" name="guests" min="1" max="1000" placeholder="e.g. 80">
+          <span class="error-msg"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="enq-budget">Budget range *</label>
+          <select id="enq-budget" name="budget">
+            <option value="">-- Select a budget --</option>
+            <option>Under R10 000</option>
+            <option>R10 000 - R25 000</option>
+            <option>R25 000 - R50 000</option>
+            <option>R50 000 and above</option>
+          </select>
+          <span class="error-msg"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="enq-venue">Venue (optional)</label>
+          <input type="text" id="enq-venue" name="venue" placeholder="Where is your event?">
+          <span class="error-msg"></span>
+        </div>
+
+      </div>
+
+      <fieldset class="form-group enq-fieldset" id="enq-contact-group">
+        <legend>How should we contact you? *</legend>
+        <label class="enq-choice"><input type="radio" name="contactMethod" value="Email"> Email</label>
+        <label class="enq-choice"><input type="radio" name="contactMethod" value="Phone call"> Phone call</label>
+        <label class="enq-choice"><input type="radio" name="contactMethod" value="WhatsApp"> WhatsApp</label>
+        <span class="error-msg"></span>
+      </fieldset>
+
+      <fieldset class="form-group enq-fieldset">
+        <legend>Extras you would like a quote for (optional)</legend>
+        <label class="enq-choice"><input type="checkbox" name="extras" value="Candles and lighting"> Candles &amp; lighting</label>
+        <label class="enq-choice"><input type="checkbox" name="extras" value="Photo backdrop"> Photo backdrop</label>
+        <label class="enq-choice"><input type="checkbox" name="extras" value="Setup and breakdown"> Setup &amp; breakdown</label>
+        <label class="enq-choice"><input type="checkbox" name="extras" value="Bridal suite styling"> Bridal suite styling</label>
+      </fieldset>
+
+      <div class="form-group">
+        <label for="enq-message">Tell us about your vision (optional)</label>
+        <textarea id="enq-message" name="message" rows="4" maxlength="300" placeholder="Colours, themes, ideas..."></textarea>
+        <span class="enq-counter" id="enq-counter">0/300</span>
+      </div>
+
+      <div class="form-group">
+        <label class="enq-choice">
+          <input type="checkbox" id="enq-consent" name="consent">
+          I agree that Doreen Decor &amp; Co may contact me about this enquiry. *
+        </label>
+        <span class="error-msg"></span>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Submit Enquiry</button>
+      <button type="reset" class="btn" id="enq-reset">Clear form</button>
+      <p id="enq-status" class="form-status" role="status"></p>
+    </form>
+  </div>
+</section>
