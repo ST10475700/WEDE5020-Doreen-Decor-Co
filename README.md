@@ -1,6 +1,6 @@
 # WEDE5020-Doreen-Decor-Co
 Doreen Decor & Co is a decor business offering romantic setups, weddings and birthdays celebrations. This website presents the services, a photo gallery, an enquiry form and contact details so that clients can easily get in touch.
-Live Site:
+Live Site:https://st10475700.github.io/WEDE5020-Doreen-Decor-Co/
 Repositories:
 Deployment repo:
 Classroom repo:
@@ -28,17 +28,25 @@ Changed-
 Name field on enquiry form and contact form now only accepts letters only.
 Enquiry form radio buttons aligned to the left with labels besides them on one line
 Website updated to include birthday celebrations, not only weddings and couples.
-Deployed-
+Deployed- Website published with GitHub pages.
 Part 2
 Added- Responsive design
-Added CSS styling
+Extra styling and layout improvements in styles.css
+basic java script
 Changed- Business international phone number to a South African number.
 Changed the company address to a South African address.
+Improved page layout and navigation across all pages
 part 1
-Added-Initial pages and structure (HTML)
+Home and About pages with the basic HTML structure
 Basic Styling (CSS)
+Images for the business
+Fixed- CSS not loading after deployment, moved styles, CSS into the style/ folder so it matches the link in the HTML pages.
 
 References-
+Own photos from Doreen Decor & Co
+Fonts and icons from canva
+Google Maps
+Claude 
 
 Author: ST10475700
 
