@@ -2,7 +2,7 @@
 Doreen Decor & Co is a decor business offering romantic setups, weddings and birthdays celebrations. This website presents the services, a photo gallery, an enquiry form and contact details so that clients can easily get in touch.
 Live Site:https://st10475700.github.io/WEDE5020-Doreen-Decor-Co/
 Repositories:
-Deployment repo:
+Deployment repo:https://github.com/ST10475700/WEDE5020-Doreen-Decor-Co.git
 Classroom repo:https://github.com/RI-WEDE5020-GR4-P1-P2-P3/ri-pta-wede5020-part1-part2-part3-ST10475700.git
 Features-
 Responsive layout that works on desktops and tablets.
